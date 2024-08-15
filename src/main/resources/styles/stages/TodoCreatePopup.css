@@ -1,0 +1,45 @@
+
+
+.root-container {
+    -fx-background-color: #1a1a1a;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-border-color: rgba(64, 178, 245, 0.61);
+    -fx-effect: dropshadow(gaussian, #40B2F59B, 6, 0, 0, 0);
+    -fx-border-width: 2px;
+}
+
+.root-container Button {
+    -fx-background-radius: 10;
+    -fx-font-weight: bolder;
+    -fx-font-family: Consolas;
+    -fx-font-size: 1.2em;
+    -fx-text-fill: white;
+    -fx-border-color: rgba(255, 255, 255, 0.28);
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-background-color: #0060a8;
+}
+
+.root-container Button:hover {
+    -fx-scale-y: 1.05;
+    -fx-translate-y: -4;
+    -fx-text-fill: #ab0000;
+    -fx-font-size: 1.25em;
+}
+
+.root-container TextField {
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-background-color: #3f3f3f;
+    -fx-text-fill: white;
+    /*-fx-border-color: #0066ff;*/
+    -fx-border-width: 2;
+
+}
+
+.root-container ChoiceBox {
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-background-color: #3f3f3f;
+}

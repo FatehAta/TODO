@@ -1,0 +1,59 @@
+
+.root-container {
+    /*-fx-background-radius: 15;*/
+    /*-fx-border-radius: 15;*/
+    -fx-background-color: transparent;
+}
+
+.nav-bar {
+    -fx-background-color: #1a1a1a;
+    -fx-background-radius: 15 15 0 0;
+
+}
+
+.nav-bar Label {
+    -fx-text-fill: white;
+    -fx-font-size: 2em;
+    -fx-font-family: Arial;
+    -fx-font-weight: bolder;
+}
+
+.nav-bar Button {
+    -fx-text-fill: black;
+    -fx-background-color: #4fa6ff;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-size: 1.2em;
+    -fx-font-weight: bold;
+}
+
+.nav-bar Button .text:hover {
+    -fx-translate-y: -2;
+    -fx-scale-y: 1.1;
+    -fx-effect: dropshadow(three-pass-box, #454545, 10, 0, 0, 6);
+}
+/* BODY */
+
+.center-container {
+    -fx-background-color: #212121;
+    -fx-background-radius: 0 0 15 15;
+}
+
+.center-container ToggleButton {
+    -fx-background-color: transparent;
+    -fx-font-family: Arial;
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+    -fx-font-size: 1.1em;
+}
+
+.center-container ToggleButton:selected {
+    -fx-background-color: rgba(255, 255, 255, 0.23);
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+}
+
+.todo-container {
+    -fx-background-color: #212121;
+
+}

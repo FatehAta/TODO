@@ -1,0 +1,31 @@
+
+.root-container {
+    -fx-font-size: 1.2em;
+    -fx-font-weight: 600;
+    -fx-font-family: Consolas, Arial;
+    -fx-background-color: #212121;
+    -fx-background-radius: 7;
+}
+.root-container Label {
+    -fx-text-fill: white;
+}
+
+.root-container CheckBox .box {
+    -fx-background-color: transparent;
+    -fx-border-color: #EEEEEE;
+    -fx-border-width: .5;
+}
+.root-container CheckBox .mark {
+    -fx-background-color: green;
+}
+.root-container Button {
+    -fx-background-color: transparent;
+}
+.root-container Circle {
+    /*-fx-fill: #ffc44c;*/
+    -fx-border-style: none;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
